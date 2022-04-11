@@ -17,6 +17,7 @@ import (
 var NRF = &nrf_service.NRF{}
 
 func main() {
+        fmt.Print("==========================================\n")
 	app := cli.NewApp()
 	app.Name = "nrf"
 	app.Usage = "5G Network Repository Function (NRF)"
